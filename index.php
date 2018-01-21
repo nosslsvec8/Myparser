@@ -25,9 +25,7 @@
 
 	 				<?php get_parser_items(); ?>
 
-	 				<?php get_parser_items(); ?>
-
-	 				<?php get_parser_items(); ?>
+	 				
 
 	 			</div>
 	 		</div>
