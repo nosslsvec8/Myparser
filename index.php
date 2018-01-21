@@ -62,13 +62,6 @@
 	 			<div class="parser" id="parser">
 	 				<h2>Parser:</h2>
 
-	 				<?php 
-	 					// $res = $db->query('SELECT * FROM name_parser');
-						// while ($row = $res->fetch(PDO::FETCH_ASSOC)){
-							// echo $row['name'];
-						// }
-	 				?>
-
 	 				<div class="parser_items">
 	 					<h3>Маг на полную ставку</h3>
 	 					<div class="col-md-12 parser_items_panel">
@@ -80,7 +73,7 @@
 	 							</div>
 	 							<div class="col-md-5 parser_items_panel_href">
 	 								<div class="row">
-	 									<input type="" name="">
+	 									<input type="" name="" placeholder="Куда сохранить">
 	 								</div>
 	 							</div>
 	 							<div class="col-md-2 parser_items_panel_button">
@@ -103,7 +96,7 @@
 	 							</div>
 	 							<div class="col-md-5 parser_items_panel_href">
 	 								<div class="row">
-	 									<input type="" name="">
+	 									<input type="" name="" placeholder="Куда сохранить">
 	 								</div>
 	 							</div>
 	 							<div class="col-md-2 parser_items_panel_button">
@@ -126,7 +119,7 @@
 	 							</div>
 	 							<div class="col-md-5 parser_items_panel_href">
 	 								<div class="row">
-	 									<input type="" name="">
+	 									<input type="" name="" placeholder="Куда сохранить">
 	 								</div>
 	 							</div>
 	 							<div class="col-md-2 parser_items_panel_button">

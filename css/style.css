@@ -148,6 +148,9 @@ header{
 	width: calc(100% - 2em);
 	font-size: 14px;
 	font-family: "Myriad-Pro-Semibold";
+	padding: 5px;
+	margin-top: -5px;
+	border-radius: 10px;
 }
 
 .parser_items_panel_button{
