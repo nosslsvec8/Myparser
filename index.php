@@ -39,10 +39,36 @@
  <script type="text/javascript">
  	$(document).ready(function(){
 
- 		// Вывод информации об результате парсинга на кнопке
+ 		// парсинг
  		$('.parser_items_panel_button_push').click(function(e){
- 			toastr.error("Не настроено");
- 		});
+            var parserValue = $(".subscribe_text").val();
+
+            // проверка на пустое поле
+            if($(".parser_items_panel_href_save").val() == ""){
+                $(".parser_items_panel_href_save").css('border', '5px solid #FBAC45');
+                toastr.error("Заполните поле, куда сохранить данные");
+            }
+            // остальные случаи
+            else{
+                $.ajax({
+                    type: "POST",
+                    url: "function/parser.php",
+                    data: {text: parserValue},
+                    success: function(html)
+                    {
+
+                    	 $('.parser_items_panel_return').text(html);
+
+                        // console.log(html.status);
+
+                        // if(html == "Вы успешно подписались"){ toastr.success(html);}
+
+                        // if(html == "Не корректный email"){ toastr.error(html);}
+                        // if(html == "Вы уже подписаны"){ toastr.info(html);}
+                    }
+                });
+            }
+        });
 
  		// плавный скрол
  		$("#header_content_scroll").on("click","a", function (event) {
