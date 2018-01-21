@@ -63,10 +63,10 @@
 	 				<h2>Parser:</h2>
 
 	 				<?php 
-	 					$res = $db->query('SELECT * FROM name_parser');
-						while ($row = $res->fetch(PDO::FETCH_ASSOC)){
+	 					// $res = $db->query('SELECT * FROM name_parser');
+						// while ($row = $res->fetch(PDO::FETCH_ASSOC)){
 							// echo $row['name'];
-						}
+						// }
 	 				?>
 
 	 				<div class="parser_items">
@@ -164,7 +164,7 @@
  <script type="text/javascript">
  	$(document).ready(function(){
  		$('.parser_items_panel_button_push').click(function(e){
- 			toastr.error("Ошибка");
+ 			toastr.error("Не настроено");
  		});
 	
 	});

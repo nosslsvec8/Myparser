@@ -1,42 +1,42 @@
 @font-face {
     font-family: "Lato-Bold"; 
-    src: url(../fonts/big_noodle_titling.ttf); 
+    src: url(../fonts/Lato-Bold.ttf); 
 }
+
+/*@font-face {
+    font-family: "Lato-Regular"; 
+    src: url(../fonts/Lato-Regular.ttf); 
+}*/
 
 @font-face {
     font-family: "Open-Sans-Light"; 
-    src: url(../fonts/big_noodle_titling.ttf); 
+    src: url(../fonts/OpenSans-Light.ttf); 
 }
 
 @font-face {
     font-family: "Open-Sans-Bold"; 
-    src: url(../fonts/big_noodle_titling.ttf); 
+    src: url(../fonts/OpenSans-Bold.ttf); 
 }
 
 @font-face {
     font-family: "Open-Sans-Italic"; 
-    src: url(../fonts/big_noodle_titling.ttf); 
+    src: url(../fonts/OpenSans-Italic.ttf); 
 }
 
 @font-face {
-    font-family: "Myriad Pro-Regular"; 
-    src: url(../fonts/big_noodle_titling.ttf); 
+    font-family: "Myriad-Pro-Regular"; 
+    src: url(../fonts/myriadpro-regular.ttf); 
 }
 
 @font-face {
-     font-family: "Myriad Pro-Regular"; 
-    src: url(../fonts/big_noodle_titling.ttf); 
-}
-
-@font-face {
-    font-family: "Myriad Pro-Semibold"; 
-    src: url(../fonts/big_noodle_titling.ttf); 
+    font-family: "Myriad-Pro-Semibold"; 
+    src: url(../fonts/Myriad-Pro-Semibold-Condensed.ttf); 
 }
 
 /**/
 @font-face {
-    font-family: "Myriad Pro-Semibold"; 
-    src: url(../fonts/big_noodle_titling.ttf); 
+    font-family: "Myriad-Pro-Bold"; 
+    src: url(../fonts/Myriad-Pro-Bold.ttf); 
 }
 
 

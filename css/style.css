@@ -135,7 +135,7 @@ header{
 }
 
 .parser_items h3{
-	font-family: "Myriad Pro-Regular";
+	font-family: "Myriad-Pro-Regular";
 	font-size: 24px;
     text-align: center;
 }
@@ -147,7 +147,7 @@ header{
 .parser_items_panel_href input{
 	width: calc(100% - 2em);
 	font-size: 14px;
-	font-family: "Myriad Pro-Semibold";
+	font-family: "Myriad-Pro-Semibold";
 }
 
 .parser_items_panel_button{
@@ -164,6 +164,10 @@ header{
 	font-size: 13px;
 }
 
+.parser_items_panel_button_push:hover{
+	color: #64696D;
+}
+
 footer{
 	background-image: url(../img/footer_background.jpg);
 	color: #FFFFFF;
@@ -175,7 +179,7 @@ footer{
 }
 
 .footer_text{
-	 font-family: "Myriad Pro-Regular"; 
+	 font-family: "Myriad-Pro-Regular"; 
 	 font-size: 11px;
 	 text-align: center;
 }
