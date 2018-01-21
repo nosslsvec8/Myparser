@@ -1,7 +1,6 @@
 <?php 
 	include_once "core/start.php"; 
 ?>
-
  <!DOCTYPE html>
  <html>
  <head>
@@ -24,74 +23,11 @@
 	 			<div class="parser" id="parser">
 	 				<h2>Parser:</h2>
 
-	 				<div class="parser_items">
-	 					<h3>Маг на полную ставку</h3>
-	 					<div class="col-md-12 parser_items_panel">
-	 						<div class="row">
-	 							<div class="col-md-5 parser_items_panel_link">
-	 								<div class="row">
-	 									<a href="http://tl.rulate.ru/book/422">http://tl.rulate.ru/book/422</a>
-	 								</div>
-	 							</div>
-	 							<div class="col-md-5 parser_items_panel_href">
-	 								<div class="row">
-	 									<input type="" name="" placeholder="Куда сохранить">
-	 								</div>
-	 							</div>
-	 							<div class="col-md-2 parser_items_panel_button">
-	 								<div class="row">
-	 									<button class="parser_items_panel_button_push">Запуск</button>
-	 								</div>
-	 							</div>	 						
-	 						</div>
-	 					</div>
-	 				</div>
+	 				<?php get_parser_items(); ?>
 
-	 				<div class="parser_items">
-	 					<h3>Маг на полную ставку</h3>
-	 					<div class="col-md-12 parser_items_panel">
-	 						<div class="row">
-	 							<div class="col-md-5 parser_items_panel_link">
-	 								<div class="row">
-	 									<a href="http://tl.rulate.ru/book/422">http://tl.rulate.ru/book/422</a>
-	 								</div>
-	 							</div>
-	 							<div class="col-md-5 parser_items_panel_href">
-	 								<div class="row">
-	 									<input type="" name="" placeholder="Куда сохранить">
-	 								</div>
-	 							</div>
-	 							<div class="col-md-2 parser_items_panel_button">
-	 								<div class="row">
-	 									<button class="parser_items_panel_button_push">Запуск</button>
-	 								</div>
-	 							</div>	 						
-	 						</div>
-	 					</div>
-	 				</div>
+	 				<?php get_parser_items(); ?>
 
-	 				<div class="parser_items">
-	 					<h3>Маг на полную ставку</h3>
-	 					<div class="col-md-12 parser_items_panel">
-	 						<div class="row">
-	 							<div class="col-md-5 parser_items_panel_link">
-	 								<div class="row">
-	 									<a href="http://tl.rulate.ru/book/422">http://tl.rulate.ru/book/422</a>
-	 								</div>
-	 							</div>
-	 							<div class="col-md-5 parser_items_panel_href">
-	 								<div class="row">
-	 									<input type="" name="" placeholder="Куда сохранить">
-	 								</div>
-	 							</div>
-	 							<div class="col-md-2 parser_items_panel_button">
-	 								<div class="row">
-	 									<button class="parser_items_panel_button_push">Запуск</button>
-	 								</div>
-	 							</div>	 						
-	 						</div>
-	 					</div>
-	 				</div>
+	 				<?php get_parser_items(); ?>
 
 	 			</div>
 	 		</div>
