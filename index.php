@@ -41,7 +41,7 @@
 
  		// парсинг
  		$('.parser_items_panel_button_push').click(function(e){
-            var parserValue = $(".subscribe_text").val();
+            var parserValue = $(".parser_items_panel_href_save").val();
 
             // проверка на пустое поле
             if($(".parser_items_panel_href_save").val() == ""){
@@ -59,12 +59,9 @@
 
                     	 $('.parser_items_panel_return').text(html);
 
-                        // console.log(html.status);
+                        if(html != null){ toastr.success("Данные успешно записанны");}
 
-                        // if(html == "Вы успешно подписались"){ toastr.success(html);}
-
-                        // if(html == "Не корректный email"){ toastr.error(html);}
-                        // if(html == "Вы уже подписаны"){ toastr.info(html);}
+                        // toastr.error(""); toastr.info("");
                     }
                 });
             }

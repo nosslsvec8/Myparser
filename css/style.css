@@ -148,6 +148,10 @@ header{
 	text-align: center;
 }
 
+.parser_items_panel_return{
+	padding: 38px 0 0 0;
+}
+
 .parser_items_panel_href input{
 	width: calc(100% - 2em);
 	font-size: 14px;
