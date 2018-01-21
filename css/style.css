@@ -93,6 +93,10 @@ header{
 .header_content_scroll{
 	padding: 145px  0 20px 0;
 }
+.header_content_scroll a{
+	width: 36px;
+	height: 36px;
+}
 
 .header_content_scroll img{
 	height: 36px;
